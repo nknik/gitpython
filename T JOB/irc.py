@@ -1,0 +1,11 @@
+n=list(range(8,30,5))
+print(3//9.5)
+print(n[::])
+print(n[::-2])
+nn='c java python'.split()
+print(max(nn))
+nk={1:1}
+print(nk.popitem())
+print(nk)
+res = dict(zip(range(10),[0]*10)) 
+print(res)

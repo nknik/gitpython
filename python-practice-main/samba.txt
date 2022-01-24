@@ -1,0 +1,353 @@
+nikhil-nk@nikhilnk:~$ sudo apt-get update
+[sudo] password for nikhil-nk: 
+Hit:1 http://in.archive.ubuntu.com/ubuntu focal InRelease                     
+Get:2 http://in.archive.ubuntu.com/ubuntu focal-updates InRelease [111 kB]    
+Get:3 http://security.ubuntu.com/ubuntu focal-security InRelease [107 kB]
+Get:4 http://in.archive.ubuntu.com/ubuntu focal-backports InRelease [98.3 kB]
+Get:5 http://in.archive.ubuntu.com/ubuntu focal-updates/main i386 Packages [207 kB]
+Get:6 http://security.ubuntu.com/ubuntu focal-security/main i386 Packages [69.9 kB]
+Get:7 http://security.ubuntu.com/ubuntu focal-security/main amd64 Packages [181 kB]
+Get:8 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages [353 kB]
+Get:9 http://security.ubuntu.com/ubuntu focal-security/main Translation-en [64.5 kB]
+Get:10 http://security.ubuntu.com/ubuntu focal-security/main amd64 DEP-11 Metadata [24.3 kB]
+Get:11 http://security.ubuntu.com/ubuntu focal-security/main amd64 c-n-f Metadata [4,504 B]
+Get:12 http://in.archive.ubuntu.com/ubuntu focal-updates/main Translation-en [133 kB]
+Get:13 http://security.ubuntu.com/ubuntu focal-security/restricted amd64 Packages [34.3 kB]
+Get:14 http://security.ubuntu.com/ubuntu focal-security/restricted Translation-en [8,916 B]
+Get:15 http://security.ubuntu.com/ubuntu focal-security/universe amd64 Packages [56.0 kB]
+Get:16 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 DEP-11 Metadata [208 kB]
+Get:17 http://security.ubuntu.com/ubuntu focal-security/universe i386 Packages [26.9 kB]
+Get:18 http://security.ubuntu.com/ubuntu focal-security/universe amd64 DEP-11 Metadata [52.4 kB]
+Get:19 http://security.ubuntu.com/ubuntu focal-security/universe amd64 c-n-f Metadata [2,312 B]
+Get:20 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 c-n-f Metadata [8,968 B]
+Get:21 http://in.archive.ubuntu.com/ubuntu focal-updates/restricted amd64 Packages [34.5 kB]
+Get:22 http://in.archive.ubuntu.com/ubuntu focal-updates/restricted Translation-en [8,968 B]
+Get:23 http://in.archive.ubuntu.com/ubuntu focal-updates/universe i386 Packages [90.2 kB]
+Get:24 http://in.archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages [165 kB]
+Get:25 http://in.archive.ubuntu.com/ubuntu focal-updates/universe Translation-en [87.1 kB]
+Get:26 http://in.archive.ubuntu.com/ubuntu focal-updates/universe amd64 DEP-11 Metadata [185 kB]
+Get:27 http://in.archive.ubuntu.com/ubuntu focal-updates/universe amd64 c-n-f Metadata [5,424 B]
+Get:28 http://in.archive.ubuntu.com/ubuntu focal-updates/multiverse amd64 DEP-11 Metadata [2,468 B]
+Get:29 http://in.archive.ubuntu.com/ubuntu focal-backports/universe amd64 Packages [3,088 B]
+Get:30 http://in.archive.ubuntu.com/ubuntu focal-backports/universe i386 Packages [2,256 B]
+Get:31 http://in.archive.ubuntu.com/ubuntu focal-backports/universe amd64 DEP-11 Metadata [1,768 B]
+Get:32 http://in.archive.ubuntu.com/ubuntu focal-backports/universe amd64 c-n-f Metadata [224 B]
+Fetched 2,339 kB in 11s (210 kB/s)                                            
+Reading package lists... Done
+nikhil-nk@nikhilnk:~$ sudo apt-get install samba
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following package was automatically installed and is no longer required:
+  libfprint-2-tod1
+Use 'sudo apt autoremove' to remove it.
+The following additional packages will be installed:
+  attr ibverbs-providers libcephfs2 libibverbs1 librados2 librdmacm1
+  python3-crypto python3-dnspython python3-gpg python3-ldb python3-markdown
+  python3-packaging python3-pygments python3-pyparsing python3-samba
+  python3-tdb samba-common samba-common-bin samba-dsdb-modules
+  samba-vfs-modules tdb-tools
+Suggested packages:
+  python-markdown-doc python-pygments-doc ttf-bitstream-vera
+  python-pyparsing-doc bind9 bind9utils ctdb ldb-tools ntp | chrony
+  smbldap-tools winbind heimdal-clients
+The following NEW packages will be installed:
+  attr ibverbs-providers libcephfs2 libibverbs1 librados2 librdmacm1
+  python3-crypto python3-dnspython python3-gpg python3-ldb python3-markdown
+  python3-packaging python3-pygments python3-pyparsing python3-samba
+  python3-tdb samba samba-common samba-common-bin samba-dsdb-modules
+  samba-vfs-modules tdb-tools
+0 upgraded, 22 newly installed, 0 to remove and 21 not upgraded.
+Need to get 10.0 MB of archives.
+After this operation, 66.5 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Ign:1 http://in.archive.ubuntu.com/ubuntu focal/main amd64 python3-dnspython all 1.16.0-1build1
+Err:2 http://in.archive.ubuntu.com/ubuntu focal/main amd64 python3-crypto amd64 2.6.1-13ubuntu2
+  Cannot initiate the connection to in.archive.ubuntu.com:80 (2403:8940:3:1::f). - connect (101: Network is unreachable)
+Ign:3 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 python3-ldb amd64 2:2.0.10-0ubuntu0.20.04.1
+Err:4 http://in.archive.ubuntu.com/ubuntu focal/main amd64 python3-tdb amd64 1.4.2-3build1
+  Cannot initiate the connection to in.archive.ubuntu.com:80 (2403:8940:3:1::f). - connect (101: Network is unreachable)
+Ign:5 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 python3-samba amd64 2:4.11.6+dfsg-0ubuntu1.4
+Ign:6 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 samba-common all 2:4.11.6+dfsg-0ubuntu1.4
+Ign:7 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 samba-common-bin amd64 2:4.11.6+dfsg-0ubuntu1.4
+Err:8 http://in.archive.ubuntu.com/ubuntu focal/main amd64 tdb-tools amd64 1.4.2-3build1
+  Cannot initiate the connection to in.archive.ubuntu.com:80 (2403:8940:3:1::f). - connect (101: Network is unreachable)
+Ign:9 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 samba amd64 2:4.11.6+dfsg-0ubuntu1.4
+Err:10 http://in.archive.ubuntu.com/ubuntu focal/main amd64 attr amd64 1:2.4.48-5
+  Cannot initiate the connection to in.archive.ubuntu.com:80 (2403:8940:3:1::f). - connect (101: Network is unreachable)
+Err:11 http://in.archive.ubuntu.com/ubuntu focal/main amd64 libibverbs1 amd64 28.0-1ubuntu1
+  Cannot initiate the connection to in.archive.ubuntu.com:80 (2403:8940:3:1::f). - connect (101: Network is unreachable)
+Err:12 http://in.archive.ubuntu.com/ubuntu focal/main amd64 ibverbs-providers amd64 28.0-1ubuntu1
+  Cannot initiate the connection to in.archive.ubuntu.com:80 (2403:8940:3:1::f). - connect (101: Network is unreachable)
+Err:13 http://in.archive.ubuntu.com/ubuntu focal/main amd64 librdmacm1 amd64 28.0-1ubuntu1
+  Cannot initiate the connection to in.archive.ubuntu.com:80 (2403:8940:3:1::f). - connect (101: Network is unreachable)
+Err:14 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 librados2 amd64 15.2.3-0ubuntu0.20.04.1
+  Cannot initiate the connection to in.archive.ubuntu.com:80 (2403:8940:3:1::f). - connect (101: Network is unreachable)
+Err:15 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 libcephfs2 amd64 15.2.3-0ubuntu0.20.04.1
+  Cannot initiate the connection to in.archive.ubuntu.com:80 (2403:8940:3:1::f). - connect (101: Network is unreachable)
+Err:16 http://in.archive.ubuntu.com/ubuntu focal/main amd64 python3-gpg amd64 1.13.1-7ubuntu2
+  Cannot initiate the connection to in.archive.ubuntu.com:80 (2403:8940:3:1::f). - connect (101: Network is unreachable)
+Ign:17 http://in.archive.ubuntu.com/ubuntu focal/main amd64 python3-pyparsing all 2.4.6-1
+Ign:18 http://in.archive.ubuntu.com/ubuntu focal/main amd64 python3-packaging all 20.3-1
+Ign:19 http://in.archive.ubuntu.com/ubuntu focal/main amd64 python3-markdown all 3.1.1-3
+Ign:20 http://in.archive.ubuntu.com/ubuntu focal/main amd64 python3-pygments all 2.3.1+dfsg-1ubuntu2
+Ign:21 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 samba-dsdb-modules amd64 2:4.11.6+dfsg-0ubuntu1.4
+Ign:22 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 samba-vfs-modules amd64 2:4.11.6+dfsg-0ubuntu1.4
+Err:1 http://in.archive.ubuntu.com/ubuntu focal/main amd64 python3-dnspython all 1.16.0-1build1
+  Cannot initiate the connection to in.archive.ubuntu.com:80 (2403:8940:3:1::f). - connect (101: Network is unreachable) Could not connect to in.archive.ubuntu.com:80 (43.255.166.254). - connect (111: Connection refused)
+Ign:6 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 samba-common all 2:4.11.6+dfsg-0ubuntu1.4
+Err:17 http://in.archive.ubuntu.com/ubuntu focal/main amd64 python3-pyparsing all 2.4.6-1
+  Cannot initiate the connection to in.archive.ubuntu.com:80 (2403:8940:3:1::f). - connect (101: Network is unreachable)
+Err:18 http://in.archive.ubuntu.com/ubuntu focal/main amd64 python3-packaging all 20.3-1
+  Cannot initiate the connection to in.archive.ubuntu.com:80 (2403:8940:3:1::f). - connect (101: Network is unreachable)
+Err:19 http://in.archive.ubuntu.com/ubuntu focal/main amd64 python3-markdown all 3.1.1-3
+  Cannot initiate the connection to in.archive.ubuntu.com:80 (2403:8940:3:1::f). - connect (101: Network is unreachable)
+Err:20 http://in.archive.ubuntu.com/ubuntu focal/main amd64 python3-pygments all 2.3.1+dfsg-1ubuntu2
+  Cannot initiate the connection to in.archive.ubuntu.com:80 (2403:8940:3:1::f). - connect (101: Network is unreachable)
+0% [Working]^C
+nikhil-nk@nikhilnk:~$ sudo apt-get install samba
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following package was automatically installed and is no longer required:
+  libfprint-2-tod1
+Use 'sudo apt autoremove' to remove it.
+The following additional packages will be installed:
+  attr ibverbs-providers libcephfs2 libibverbs1 librados2 librdmacm1
+  python3-crypto python3-dnspython python3-gpg python3-ldb python3-markdown
+  python3-packaging python3-pygments python3-pyparsing python3-samba
+  python3-tdb samba-common samba-common-bin samba-dsdb-modules
+  samba-vfs-modules tdb-tools
+Suggested packages:
+  python-markdown-doc python-pygments-doc ttf-bitstream-vera
+  python-pyparsing-doc bind9 bind9utils ctdb ldb-tools ntp | chrony
+  smbldap-tools winbind heimdal-clients
+The following NEW packages will be installed:
+  attr ibverbs-providers libcephfs2 libibverbs1 librados2 librdmacm1
+  python3-crypto python3-dnspython python3-gpg python3-ldb python3-markdown
+  python3-packaging python3-pygments python3-pyparsing python3-samba
+  python3-tdb samba samba-common samba-common-bin samba-dsdb-modules
+  samba-vfs-modules tdb-tools
+0 upgraded, 22 newly installed, 0 to remove and 21 not upgraded.
+Need to get 10.0 MB of archives.
+After this operation, 66.5 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://in.archive.ubuntu.com/ubuntu focal/main amd64 python3-dnspython all 1.16.0-1build1 [89.1 kB]
+Get:2 http://in.archive.ubuntu.com/ubuntu focal/main amd64 python3-crypto amd64 2.6.1-13ubuntu2 [237 kB]
+Get:3 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 python3-ldb amd64 2:2.0.10-0ubuntu0.20.04.1 [37.6 kB]
+Get:4 http://in.archive.ubuntu.com/ubuntu focal/main amd64 python3-tdb amd64 1.4.2-3build1 [13.4 kB]
+Get:5 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 python3-samba amd64 2:4.11.6+dfsg-0ubuntu1.4 [2,409 kB]
+Get:6 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 samba-common all 2:4.11.6+dfsg-0ubuntu1.4 [69.0 kB]
+Get:7 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 samba-common-bin amd64 2:4.11.6+dfsg-0ubuntu1.4 [521 kB]
+Get:8 http://in.archive.ubuntu.com/ubuntu focal/main amd64 tdb-tools amd64 1.4.2-3build1 [24.9 kB]
+Get:9 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 samba amd64 2:4.11.6+dfsg-0ubuntu1.4 [972 kB]
+Get:10 http://in.archive.ubuntu.com/ubuntu focal/main amd64 attr amd64 1:2.4.48-5 [21.9 kB]
+Get:11 http://in.archive.ubuntu.com/ubuntu focal/main amd64 libibverbs1 amd64 28.0-1ubuntu1 [53.6 kB]
+Get:12 http://in.archive.ubuntu.com/ubuntu focal/main amd64 ibverbs-providers amd64 28.0-1ubuntu1 [232 kB]
+Get:13 http://in.archive.ubuntu.com/ubuntu focal/main amd64 librdmacm1 amd64 28.0-1ubuntu1 [64.9 kB]
+Get:14 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 librados2 amd64 15.2.3-0ubuntu0.20.04.1 [3,239 kB]
+Get:15 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 libcephfs2 amd64 15.2.3-0ubuntu0.20.04.1 [471 kB]
+Get:16 http://in.archive.ubuntu.com/ubuntu focal/main amd64 python3-gpg amd64 1.13.1-7ubuntu2 [165 kB]
+Get:17 http://in.archive.ubuntu.com/ubuntu focal/main amd64 python3-pyparsing all 2.4.6-1 [61.3 kB]
+Get:18 http://in.archive.ubuntu.com/ubuntu focal/main amd64 python3-packaging all 20.3-1 [26.8 kB]
+Get:19 http://in.archive.ubuntu.com/ubuntu focal/main amd64 python3-markdown all 3.1.1-3 [59.3 kB]
+Get:20 http://in.archive.ubuntu.com/ubuntu focal/main amd64 python3-pygments all 2.3.1+dfsg-1ubuntu2 [579 kB]
+Get:21 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 samba-dsdb-modules amd64 2:4.11.6+dfsg-0ubuntu1.4 [289 kB]
+Get:22 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 samba-vfs-modules amd64 2:4.11.6+dfsg-0ubuntu1.4 [366 kB]
+Fetched 10.0 MB in 1min 32s (108 kB/s)                                        
+Preconfiguring packages ...
+Selecting previously unselected package python3-dnspython.
+(Reading database ... 183355 files and directories currently installed.)
+Preparing to unpack .../00-python3-dnspython_1.16.0-1build1_all.deb ...
+Unpacking python3-dnspython (1.16.0-1build1) ...
+Selecting previously unselected package python3-crypto.
+Preparing to unpack .../01-python3-crypto_2.6.1-13ubuntu2_amd64.deb ...
+Unpacking python3-crypto (2.6.1-13ubuntu2) ...
+Selecting previously unselected package python3-ldb.
+Preparing to unpack .../02-python3-ldb_2%3a2.0.10-0ubuntu0.20.04.1_amd64.deb ...
+Unpacking python3-ldb (2:2.0.10-0ubuntu0.20.04.1) ...
+Selecting previously unselected package python3-tdb.
+Preparing to unpack .../03-python3-tdb_1.4.2-3build1_amd64.deb ...
+Unpacking python3-tdb (1.4.2-3build1) ...
+Selecting previously unselected package python3-samba.
+Preparing to unpack .../04-python3-samba_2%3a4.11.6+dfsg-0ubuntu1.4_amd64.deb ...
+Unpacking python3-samba (2:4.11.6+dfsg-0ubuntu1.4) ...
+Selecting previously unselected package samba-common.
+Preparing to unpack .../05-samba-common_2%3a4.11.6+dfsg-0ubuntu1.4_all.deb ...
+Unpacking samba-common (2:4.11.6+dfsg-0ubuntu1.4) ...
+Selecting previously unselected package samba-common-bin.
+Preparing to unpack .../06-samba-common-bin_2%3a4.11.6+dfsg-0ubuntu1.4_amd64.deb ...
+Unpacking samba-common-bin (2:4.11.6+dfsg-0ubuntu1.4) ...
+Selecting previously unselected package tdb-tools.
+Preparing to unpack .../07-tdb-tools_1.4.2-3build1_amd64.deb ...
+Unpacking tdb-tools (1.4.2-3build1) ...
+Selecting previously unselected package samba.
+Preparing to unpack .../08-samba_2%3a4.11.6+dfsg-0ubuntu1.4_amd64.deb ...
+Unpacking samba (2:4.11.6+dfsg-0ubuntu1.4) ...
+Selecting previously unselected package attr.
+Preparing to unpack .../09-attr_1%3a2.4.48-5_amd64.deb ...
+Unpacking attr (1:2.4.48-5) ...
+Selecting previously unselected package libibverbs1:amd64.
+Preparing to unpack .../10-libibverbs1_28.0-1ubuntu1_amd64.deb ...
+Unpacking libibverbs1:amd64 (28.0-1ubuntu1) ...
+Selecting previously unselected package ibverbs-providers:amd64.
+Preparing to unpack .../11-ibverbs-providers_28.0-1ubuntu1_amd64.deb ...
+Unpacking ibverbs-providers:amd64 (28.0-1ubuntu1) ...
+Selecting previously unselected package librdmacm1:amd64.
+Preparing to unpack .../12-librdmacm1_28.0-1ubuntu1_amd64.deb ...
+Unpacking librdmacm1:amd64 (28.0-1ubuntu1) ...
+Selecting previously unselected package librados2.
+Preparing to unpack .../13-librados2_15.2.3-0ubuntu0.20.04.1_amd64.deb ...
+Unpacking librados2 (15.2.3-0ubuntu0.20.04.1) ...
+Selecting previously unselected package libcephfs2.
+Preparing to unpack .../14-libcephfs2_15.2.3-0ubuntu0.20.04.1_amd64.deb ...
+Unpacking libcephfs2 (15.2.3-0ubuntu0.20.04.1) ...
+Selecting previously unselected package python3-gpg.
+Preparing to unpack .../15-python3-gpg_1.13.1-7ubuntu2_amd64.deb ...
+Unpacking python3-gpg (1.13.1-7ubuntu2) ...
+Selecting previously unselected package python3-pyparsing.
+Preparing to unpack .../16-python3-pyparsing_2.4.6-1_all.deb ...
+Unpacking python3-pyparsing (2.4.6-1) ...
+Selecting previously unselected package python3-packaging.
+Preparing to unpack .../17-python3-packaging_20.3-1_all.deb ...
+Unpacking python3-packaging (20.3-1) ...
+Selecting previously unselected package python3-markdown.
+Preparing to unpack .../18-python3-markdown_3.1.1-3_all.deb ...
+Unpacking python3-markdown (3.1.1-3) ...
+Selecting previously unselected package python3-pygments.
+Preparing to unpack .../19-python3-pygments_2.3.1+dfsg-1ubuntu2_all.deb ...
+Unpacking python3-pygments (2.3.1+dfsg-1ubuntu2) ...
+Selecting previously unselected package samba-dsdb-modules:amd64.
+Preparing to unpack .../20-samba-dsdb-modules_2%3a4.11.6+dfsg-0ubuntu1.4_amd64.deb ...
+Unpacking samba-dsdb-modules:amd64 (2:4.11.6+dfsg-0ubuntu1.4) ...
+Selecting previously unselected package samba-vfs-modules:amd64.
+Preparing to unpack .../21-samba-vfs-modules_2%3a4.11.6+dfsg-0ubuntu1.4_amd64.deb ...
+Unpacking samba-vfs-modules:amd64 (2:4.11.6+dfsg-0ubuntu1.4) ...
+Setting up libibverbs1:amd64 (28.0-1ubuntu1) ...
+Setting up ibverbs-providers:amd64 (28.0-1ubuntu1) ...
+Setting up attr (1:2.4.48-5) ...
+Setting up samba-vfs-modules:amd64 (2:4.11.6+dfsg-0ubuntu1.4) ...
+Setting up samba-common (2:4.11.6+dfsg-0ubuntu1.4) ...
+
+Creating config file /etc/samba/smb.conf with new version
+Setting up python3-tdb (1.4.2-3build1) ...
+Setting up python3-pygments (2.3.1+dfsg-1ubuntu2) ...
+Setting up python3-pyparsing (2.4.6-1) ...
+Setting up python3-gpg (1.13.1-7ubuntu2) ...
+Setting up tdb-tools (1.4.2-3build1) ...
+update-alternatives: using /usr/bin/tdbbackup.tdbtools to provide /usr/bin/tdbbackup (tdbbackup) in auto mode
+Setting up python3-ldb (2:2.0.10-0ubuntu0.20.04.1) ...
+Setting up python3-dnspython (1.16.0-1build1) ...
+Setting up python3-crypto (2.6.1-13ubuntu2) ...
+Setting up samba-dsdb-modules:amd64 (2:4.11.6+dfsg-0ubuntu1.4) ...
+Setting up python3-samba (2:4.11.6+dfsg-0ubuntu1.4) ...
+Setting up librdmacm1:amd64 (28.0-1ubuntu1) ...
+Setting up librados2 (15.2.3-0ubuntu0.20.04.1) ...
+Setting up libcephfs2 (15.2.3-0ubuntu0.20.04.1) ...
+Setting up python3-packaging (20.3-1) ...
+Setting up python3-markdown (3.1.1-3) ...
+Setting up samba-common-bin (2:4.11.6+dfsg-0ubuntu1.4) ...
+Checking smb.conf with testparm
+Load smb config files from /etc/samba/smb.conf
+Loaded services file OK.
+Server role: ROLE_STANDALONE
+
+Done
+Setting up samba (2:4.11.6+dfsg-0ubuntu1.4) ...
+Samba is not being run as an AD Domain Controller: Masking samba-ad-dc.service
+Please ignore the following error about deb-systemd-helper not finding those services.
+(samba-ad-dc.service masked)
+Created symlink /etc/systemd/system/multi-user.target.wants/nmbd.service → /lib/systemd/system/nmbd.service.
+Failed to preset unit: Unit file /etc/systemd/system/samba-ad-dc.service is masked.
+/usr/bin/deb-systemd-helper: error: systemctl preset failed on samba-ad-dc.service: No such file or directory
+Created symlink /etc/systemd/system/multi-user.target.wants/smbd.service → /lib/systemd/system/smbd.service.
+samba-ad-dc.service is a disabled or a static unit, not starting it.
+Processing triggers for ufw (0.36-6) ...
+Processing triggers for systemd (245.4-4ubuntu3.2) ...
+Processing triggers for man-db (2.9.1-1) ...
+Processing triggers for libc-bin (2.31-0ubuntu9) ...
+nikhil-nk@nikhilnk:~$ whereis samba
+samba: /usr/sbin/samba /usr/lib/x86_64-linux-gnu/samba /etc/samba /usr/share/samba /usr/share/man/man8/samba.8.gz /usr/share/man/man7/samba.7.gz
+nikhil-nk@nikhilnk:~$ pwd
+/home/nikhil-nk
+nikhil-nk@nikhilnk:~$ sudo mkdir sambashare
+[sudo] password for nikhil-nk: 
+nikhil-nk@nikhilnk:~$ cd 
+.cache/     Documents/  .local/     Pictures/   snap/       Videos/
+.config/    Downloads/  .mozilla/   Public/     .ssh/       
+Desktop/    .gnupg/     Music/      sambashare/ Templates/  
+nikhil-nk@nikhilnk:~$ cd sambashare
+nikhil-nk@nikhilnk:~/sambashare$ ls
+nikhil-nk@nikhilnk:~/sambashare$ sudo touch aa.txt
+nikhil-nk@nikhilnk:~/sambashare$ sudo touch bb.txt
+nikhil-nk@nikhilnk:~/sambashare$ cd
+nikhil-nk@nikhilnk:~$ pwd
+/home/nikhil-nk
+nikhil-nk@nikhilnk:~$ sudo nano /etc/samba/smb.conf
+nikhil-nk@nikhilnk:~$ sudo nano /etc/samba/smb.conf
+nikhil-nk@nikhilnk:~$ sudo service smbd restart
+nikhil-nk@nikhilnk:~$ sudo systemctl status smbd
+● smbd.service - Samba SMB Daemon
+     Loaded: loaded (/lib/systemd/system/smbd.service; enabled; vendor preset:>
+     Active: active (running) since Sat 2020-09-12 13:42:38 IST; 1min 7s ago
+       Docs: man:smbd(8)
+             man:samba(7)
+             man:smb.conf(5)
+    Process: 6722 ExecStartPre=/usr/share/samba/update-apparmor-samba-profile >
+   Main PID: 6745 (smbd)
+     Status: "smbd: ready to serve connections..."
+      Tasks: 4 (limit: 4297)
+     Memory: 8.5M
+     CGroup: /system.slice/smbd.service
+             ├─6745 /usr/sbin/smbd --foreground --no-process-group
+             ├─6747 /usr/sbin/smbd --foreground --no-process-group
+             ├─6748 /usr/sbin/smbd --foreground --no-process-group
+             └─6749 /usr/sbin/smbd --foreground --no-process-group
+
+Sep 12 13:42:38 nikhilnk systemd[1]: Starting Samba SMB Daemon...
+Sep 12 13:42:38 nikhilnk systemd[1]: Started Samba SMB Daemon.
+
+nikhil-nk@nikhilnk:~$ ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: ens33: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 00:0c:29:3d:ae:b7 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.184.128/24 brd 192.168.184.255 scope global dynamic noprefixroute ens33
+       valid_lft 1123sec preferred_lft 1123sec
+    inet6 fe80::a8e:bf2d:482a:9873/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+nikhil-nk@nikhilnk:~$ sudo nano /etc/samba/smb.conf
+nikhil-nk@nikhilnk:~$ sudo service smbd restart
+nikhil-nk@nikhilnk:~$ sudo systemctl status smbd
+● smbd.service - Samba SMB Daemon
+     Loaded: loaded (/lib/systemd/system/smbd.service; enabled; vendor preset:>
+     Active: active (running) since Sat 2020-09-12 13:53:38 IST; 6s ago
+       Docs: man:smbd(8)
+             man:samba(7)
+             man:smb.conf(5)
+    Process: 6874 ExecStartPre=/usr/share/samba/update-apparmor-samba-profile >
+   Main PID: 6903 (smbd)
+     Status: "smbd: ready to serve connections..."
+      Tasks: 4 (limit: 4297)
+     Memory: 8.1M
+     CGroup: /system.slice/smbd.service
+             ├─6903 /usr/sbin/smbd --foreground --no-process-group
+             ├─6905 /usr/sbin/smbd --foreground --no-process-group
+             ├─6906 /usr/sbin/smbd --foreground --no-process-group
+             └─6907 /usr/sbin/smbd --foreground --no-process-group
+
+Sep 12 13:53:36 nikhilnk systemd[1]: Starting Samba SMB Daemon...
+Sep 12 13:53:38 nikhilnk systemd[1]: Started Samba SMB Daemon.
+
+nikhil-nk@nikhilnk:~$ sudo smbpass -a nikhil-nk
+sudo: smbpass: command not found
+nikhil-nk@nikhilnk:~$ sudo smbpasswd -a nikhil-nk
+New SMB password:
+Retype new SMB password:
+Added user nikhil-nk.
+nikhil-nk@nikhilnk:~$ ^C
+

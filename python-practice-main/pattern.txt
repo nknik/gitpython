@@ -1,0 +1,30 @@
+              
+*            *
+**          **
+***        ***
+****      ****
+*****    *****
+******  ******
+ ************ 
+  **********  
+   ********   
+    ******    
+     ****     
+      **      
+How do you allocate memory in C ??
+How to deallocate memory in C ??
+Why you need to deallocate memory in C ??
+What is database warehouse ??
+Difference between database and databse warehouse ?
+What is array ??
+Are strings stored in array format  in C language ??
+SQL queries related to group by and having clause .(2-3 ) queries .
+Who is CEO of tcs ??
+Why do you think TCS should hire you ??
+What is palindrome and explain it how to check if given string is palindrome or not  ??(I explained program for palindrome in python )
+How would you implement program of palindrome in c language and how would you have implemented that  ?
+Name different microprocessor chip numbers..
+Tell me the recent place you visited..?
+Are you able  to work at night shift ??
+Are you to able to relocate to other city ,not necessary to be Pune it can be any city over India .?
+Are you looking for any further education ??

@@ -1,0 +1,4 @@
+  File "test.py", line 12
+    
+             ^
+SyntaxError: unexpected EOF while parsing
