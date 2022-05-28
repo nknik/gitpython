@@ -1,4 +1,8 @@
 {
     "python.formatting.provider": "black",
-    "python.pythonPath": "C:\\Users\\Aarya\\Envs\\nik\\Scripts\\python.exe"
+    "python.pythonPath": "C:\\Users\\Aarya\\Envs\\nik\\Scripts\\python.exe",
+    "files.associations": {
+        "*html": "html",
+        "xlocale": "c"
+    }
 }
